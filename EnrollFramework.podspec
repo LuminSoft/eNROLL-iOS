@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EnrollFramework'
-  s.version          = "3.0.2"
+  s.version          = "3.0.3"
   s.summary          = 'eNROLL iOS Framework'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,10 @@ TODO: Add long description of the pod here.
   s.platform     = :ios, '13.0'
   s.vendored_frameworks = s.version.to_s + "/EnrollFramework.xcframework"
   s.dependency 'FirebaseRemoteConfig','11.15.0'
-  s.dependency 'dot-face-detection-fast', '8.17.0'
-  s.dependency 'dot-face-background-uniformity', '8.17.0'
-  s.dependency 'dot-face-expression-neutral', '8.17.0'
-  s.dependency 'dot-document', '8.17.0'
+  s.dependency 'dot-face-detection-fast', '9.0.2'
+  s.dependency 'dot-face-background-uniformity', '9.0.2'
+  s.dependency 'dot-face-expression-neutral', '9.0.2'
+  s.dependency 'dot-document', '9.0.2'
+  s.dependency 'dot-nfc', '9.0.2'
 
 end
